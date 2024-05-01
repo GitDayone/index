@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+* {margin: 0;
+    padding: 0;}
+a {text-decoration: none;
+    color: inherit;}
+li {list-style: none;}
+body {color:#333;
+    line-height: 1;}
+.WRAP {
+    width: 100%;
+    height: 100%;
+    display : flex;
+/*     flex-direction: column; */
+    align-content: flex-end; /* flex-wrap:wrap과 함께 사용 */
+    flex-wrap: wrap;
+}
+header {
+    width: 100%;
+    height: 90px;
+    background-color: #023586;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+header nav {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+header nav div {
+    width: 1280px;
+    height: 100%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+header nav div ul {
+    display : flex;
+}
+header nav div ul li {
+    padding : 0 10px;
+}
+.first {
+    color : yellow;
+}
+header h1 {
+    font-size: 28px;
+}
+.main {
+    width: 100%;
+    height: 793px;
+    margin-top: 90px;
+    padding-bottom: 80px;
+/*     margin: 0 auto; */
+/*     display : flex;
+    justify-content: space-between; */
+}
+.main div {
+    height: 100%;
+}
+.main div ul {
+    display : flex;
+}
+.main div ul li {
+    width: 100%;
+    height: 793px;
+    object-fit: cover;
+}
+.main img {
+    width: 100%;
+    height: 793px;
+}
+.promotion {
+    width: 1470px;
+    height: 504px;
+    margin: 80px auto;
+/*     background-color: aquamarine; */
+}
+.main2 {
+    width: 1470px;
+}
+.main2 .main2-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 12px 30px;
+    font-size: 14px;
+}
+.promotion .main2-header p {
+    border-bottom: 3px solid #333;
+}
+.promotion .main2 .main2-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.promotion .main2 .main2-wrap .item {
+    height: 100%;
+    margin: 0 12px;
+}
+.promotion .main2 .main2-wrap div {
+    width : 337px;
+    align-items: center;
+
+}
+.promotion .main2 .main2-wrap img {
+    width: 337px;
+    margin-bottom: 22px;
+    position: relative;
+}
+.promotion .main2 .main2-wrap div h3 {
+    font-size: 18px;
+    height: 100%;
+    line-height: 1.44;
+}
+.promotion .main2 .main2-wrap .item div {
+    line-height: center;
+}
+.promotion .main2 .main2-wrap .item div p {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #888888;
+    background-color: #fff;
+}
+.promotion .main2 .main2-wrap .box p {
+    width: 46px;
+    height: 18px;
+    font-size: 10px;
+    background-color:#023586;
+    color: #fff;
+    text-align: center;
+    line-height: 18px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
